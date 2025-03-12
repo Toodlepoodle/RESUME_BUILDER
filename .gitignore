@@ -1,0 +1,41 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore dependency directories
+jspm_packages/
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+venv/
+env/
+
+# Ignore backend-specific files
+backend/__pycache__/
+backend/.env
